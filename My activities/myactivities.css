@@ -1,0 +1,140 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(35deg, rgba(255,255,255,0.9725140056022409) 0%, rgba(0,47,133,0.8772759103641457) 12%, rgba(0,33,94,0.9248949579831933) 83%, rgba(255,255,255,0.8800770308123249) 100%);
+    margin: 0px;
+}
+
+.div-king{
+    width: 98vw;
+    height: 100vh;
+}
+
+/* navbar */
+ 
+.navbar{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.navbar h1{
+    transition: 400ms;
+}
+
+.ul{
+    display: flex;
+}
+
+.ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+
+li:hover{
+    transition: 400ms;
+    transform: scale(1.2);
+}
+
+
+.contact{
+    cursor: pointer;
+    letter-spacing: 1PX;
+    font-size: large;
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: 2px solid #002f85;
+    color: white;
+    background: #002f85;
+    transition: 400ms;
+}
+
+.contact:hover{
+    border: 2px solid #002f85;
+    background-color: #dce1e9;
+    color: #002f85;
+    transition: 400ms;
+}
+
+.contact:active{
+    transform: scale(1.2);
+} 
+
+/* navabr */
+
+
+.body{
+    padding: 20px 120px;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.row-1 img{
+    width: 100%;
+    opacity: 0.7;
+    transition: 300ms;
+}
+
+.row-1 img:hover{
+    transition: 300ms;
+    transform: scale(1.2);
+}
+
+.row-1 div{
+    width: 30%;
+}
+
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.row-2 img{
+    width: 100%;
+    opacity: 0.7;
+    transition: 300ms;
+}
+
+
+.row-2 img:hover{
+    transition: 300ms;
+    transform: scale(1.2);
+}
+
+.row-2 div{
+    width: 30%;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.row-3 img{
+    width: 100%;
+    opacity: 0.7;
+    transition: 300ms;
+}
+
+.row-3 img:hover{
+    transition: 300ms;
+    transform: scale(1.2);
+}
+.row-3 div{
+    width: 30%;
+}
