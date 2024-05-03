@@ -1,0 +1,164 @@
+/* navabr */
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(35deg, rgba(255,255,255,0.9725140056022409) 0%, rgba(0,47,133,0.8772759103641457) 12%, rgba(0,33,94,0.9248949579831933) 83%, rgba(255,255,255,0.8800770308123249) 100%);
+    margin: 0px;
+}
+
+.div-king{
+    width: 98vw;
+    height: 100vh;
+}
+
+/* navbar */
+ 
+.navbar{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.navbar h1{
+    transition: 400ms;
+}
+
+.ul{
+    display: flex;
+}
+
+.ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+
+li:hover{
+    transition: 400ms;
+    transform: scale(1.2);
+}
+
+
+.contact{
+    cursor: pointer;
+    letter-spacing: 1PX;
+    font-size: large;
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: 2px solid #002f85;
+    color: white;
+    background: #002f85;
+    transition: 400ms;
+}
+
+.contact:hover{
+    border: 2px solid #002f85;
+    background-color: #dce1e9;
+    color: #002f85;
+    transition: 400ms;
+}
+
+.contact:active{
+    transform: scale(1.2);
+}
+
+/* navbar */
+
+.about-me{
+    color: white;
+    margin: 100px 160px;
+}
+
+.body-wrapper{
+    margin: 130px 180px;
+    display: flex;
+    gap: 50px;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+
+.fas{
+    font-size: 20px ;
+    margin: 0px 10px;
+    color: #FDDE55;
+}
+
+.grey{
+    color: grey;
+}
+
+.leftP{
+    letter-spacing: 1px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+.leftH3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.skills div i{
+    font-size: 40px;
+    color: #002f85;
+}
+
+.skills div h2{
+    font-size: 40px;
+    color: #002f85;
+}
+
+.skills div{
+    transition: 0.3s;
+}
+
+.skills div:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
+.unity{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.C{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.blender{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
